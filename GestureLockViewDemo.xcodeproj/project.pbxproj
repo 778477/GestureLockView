@@ -10,9 +10,8 @@
 		E5130ACF1D58D7410072C220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5130ACE1D58D7410072C220 /* main.m */; };
 		E5130AD21D58D7410072C220 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5130AD11D58D7410072C220 /* AppDelegate.m */; };
 		E5130AD51D58D7410072C220 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5130AD41D58D7410072C220 /* ViewController.m */; };
-		E5130AD81D58D7410072C220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5130AD61D58D7410072C220 /* Main.storyboard */; };
 		E5130ADA1D58D7410072C220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5130AD91D58D7410072C220 /* Assets.xcassets */; };
-		E5130ADD1D58D7410072C220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5130ADB1D58D7410072C220 /* LaunchScreen.storyboard */; };
+		E5130AE51D58D95A0072C220 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5130AE41D58D95A0072C220 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +21,9 @@
 		E5130AD11D58D7410072C220 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E5130AD31D58D7410072C220 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E5130AD41D58D7410072C220 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E5130AD71D58D7410072C220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5130AD91D58D7410072C220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E5130ADC1D58D7410072C220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5130ADE1D58D7410072C220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5130AE41D58D95A0072C220 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +40,7 @@
 		E5130AC11D58D7410072C220 = {
 			isa = PBXGroup;
 			children = (
+				E5130AE41D58D95A0072C220 /* Default-568h@2x.png */,
 				E5130ACC1D58D7410072C220 /* GestureLockViewDemo */,
 				E5130ACB1D58D7410072C220 /* Products */,
 			);
@@ -62,9 +61,7 @@
 				E5130AD11D58D7410072C220 /* AppDelegate.m */,
 				E5130AD31D58D7410072C220 /* ViewController.h */,
 				E5130AD41D58D7410072C220 /* ViewController.m */,
-				E5130AD61D58D7410072C220 /* Main.storyboard */,
 				E5130AD91D58D7410072C220 /* Assets.xcassets */,
-				E5130ADB1D58D7410072C220 /* LaunchScreen.storyboard */,
 				E5130ADE1D58D7410072C220 /* Info.plist */,
 				E5130ACD1D58D7410072C220 /* Supporting Files */,
 			);
@@ -110,7 +107,6 @@
 				TargetAttributes = {
 					E5130AC91D58D7410072C220 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = 5W9JNEGWA4;
 					};
 				};
 			};
@@ -137,9 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5130ADD1D58D7410072C220 /* LaunchScreen.storyboard in Resources */,
 				E5130ADA1D58D7410072C220 /* Assets.xcassets in Resources */,
-				E5130AD81D58D7410072C220 /* Main.storyboard in Resources */,
+				E5130AE51D58D95A0072C220 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,25 +152,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E5130AD61D58D7410072C220 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5130AD71D58D7410072C220 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E5130ADB1D58D7410072C220 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5130ADC1D58D7410072C220 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E5130ADF1D58D7410072C220 /* Debug */ = {
@@ -262,7 +238,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GestureLockViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmy.project.GestureLockViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,7 +251,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GestureLockViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmy.project.GestureLockViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +279,7 @@
 				E5130AE31D58D7410072C220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
