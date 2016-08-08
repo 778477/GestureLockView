@@ -10,82 +10,99 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>0268AB546AC4F07D6F4B1B94</key>
+		<key>00EE5058FD7E3D288E3D436C</key>
 		<dict>
-			<key>fileRef</key>
-			<string>FE1D4C8A9D861BBC434FEB3F</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>03C244C64E9BCB1531D685FF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-GestureLockViewDemo-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A1B514030CA946E23DDFF66</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-GestureLockViewDemo-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1702CDA422B96EED3AFA0A85</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GestureLockViewDemo-GMYGestureLockView-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AA3872AD6BBCE7088CADBAA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>825862DDB9F1E52249ECF251</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>260E9AFF1EBFD67680C7A1B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C3BC5C9B5773B1B89BFF9E8A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2821E6BD99F2E7FBA862F6E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>GMYGestureLockView.h</string>
+			<string>Pods-GestureLockViewDemo-GMYGestureLockView</string>
+			<key>target</key>
+			<string>7CEA365F8281F55B86CF8FF5</string>
+			<key>targetProxy</key>
+			<string>8FBDB5EC8BC8640A669EF1F2</string>
+		</dict>
+		<key>0A28B6A4EFFE8146C677F1F6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23E0A8D5CF7384BDAF56212C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>14FA776B83D8796C3F95917A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C9A26857CC4BC8677935E5D8</string>
+				<string>8811585F907E56998D35B76A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>1834CB887AE68BC948CD05F8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>3F92465119A36302DC63B4AD</string>
+				<string>AEF9012A8589648F8DA5FCCE</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>1A43C0BCF80F15EAF701D350</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9EF42AE7034676880B7B50D5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1FABE79AC1F17CD1763A59D2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>GMYGestureLockView/GMYGestureLockView.h</string>
+			<string>Pods-GestureLockViewDemo-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3528D12322E92EB21CD44803</key>
+		<key>23E0A8D5CF7384BDAF56212C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-GestureLockViewDemo-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>299FAF967D8F59BBDBF0D0F3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B07C31783E1BF98C98CB3E57</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F92465119A36302DC63B4AD</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -152,14 +169,94 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>36404C6D438E98A2D9BAFA47</key>
+		<key>490415F1C3EEA50E05B3A792</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F6122F4B81DCA861F93DFEFB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4FF39F89E0C885314951DEF9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D98B120C5F323CB346EB32F1</string>
+				<string>490415F1C3EEA50E05B3A792</string>
+				<string>299FAF967D8F59BBDBF0D0F3</string>
+				<string>D5BA8B8F6F5B39DB09BE4504</string>
+				<string>7C7279812C971BD930741238</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>59FD732D0E1D4C8DA35DF306</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-GestureLockViewDemo-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>656443B430FE348BA543FD4B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C3BC5C9B5773B1B89BFF9E8A</string>
+			<string>66781EEA53DB89737B4C44F9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>36A394475D147EF9FE2706E3</key>
+		<key>66781EEA53DB89737B4C44F9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>6719B68B09AA580CCFC97A6C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-GestureLockViewDemo-GMYGestureLockView.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6A17C397CCB4B8B3F6CE677E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0A28B6A4EFFE8146C677F1F6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6F2EFBD7A1C61A784BD1879C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -174,162 +271,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>37725D79CB04B34D4B4D5497</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GestureLockViewDemo-GMYGestureLockView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3AE6B4E6A092E5D5B1A10829</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DF15CEC1C2A5F6AA2B9C6E1B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>604500E14F02ABAD4BBFC73A</string>
-				<string>97937C71340E286C0C0F86E1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>72464CFFB13AA386A68B27E8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-GestureLockViewDemo</string>
-			<key>productName</key>
-			<string>Pods-GestureLockViewDemo</string>
-			<key>productReference</key>
-			<string>4CD2CD6AB938721DC1A3BE5C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>3DB5B357448B4A7F04E22221</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GestureLockViewDemo.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4703F0A991B63DC07A4C4328</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7751CFFB4F5B39BC8EBB8A5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4B4476775CCFA17382A8CC52</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2821E6BD99F2E7FBA862F6E9</string>
-				<string>36A394475D147EF9FE2706E3</string>
-				<string>C63002F02C76B45EFBCC5A0B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>GMYGestureLockView</string>
-			<key>path</key>
-			<string>GMYGestureLockView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CD2CD6AB938721DC1A3BE5C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-GestureLockViewDemo.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>604500E14F02ABAD4BBFC73A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1AA3872AD6BBCE7088CADBAA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6FDACF0F35241AF1747DDD76</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-GestureLockViewDemo-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72464CFFB13AA386A68B27E8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-GestureLockViewDemo-GMYGestureLockView</string>
-			<key>target</key>
-			<string>85AC378EF4A4D02F064464A9</string>
-			<key>targetProxy</key>
-			<string>A7BB5252CA08CB79E2CDD074</string>
-		</dict>
-		<key>74784185EFCBF24875FBA6AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GestureLockViewDemo.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7751CFFB4F5B39BC8EBB8A5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2821E6BD99F2E7FBA862F6E9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7C0063F24562CCADFB1C7A64</key>
+		<key>72D87B0D0B48BBF77C7F2DB1</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>74784185EFCBF24875FBA6AB</string>
+			<string>CC4ADFE21178DCBB74706CDA</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -344,6 +289,8 @@
 				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-GestureLockViewDemo-GMYGestureLockView/Pods-GestureLockViewDemo-GMYGestureLockView-prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -373,11 +320,11 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>7F590F4D44B5651C97E4B1AF</key>
+		<key>7C7279812C971BD930741238</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>D0578247BC58F86A3442E579</string>
+				<string>E90550FF0E85E02CC6E20E15</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -386,42 +333,15 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7FD1E1BA2AFDA8F52387B1D4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9E6E1A1C2E3E52FE0462A0FD</string>
-				<string>931AA48978DED0F70785A548</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>825862DDB9F1E52249ECF251</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-GestureLockViewDemo-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85AC378EF4A4D02F064464A9</key>
+		<key>7CEA365F8281F55B86CF8FF5</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>7FD1E1BA2AFDA8F52387B1D4</string>
+			<string>D0A99C1B083EFFB8091B1E65</string>
 			<key>buildPhases</key>
 			<array>
-				<string>B7E64205BDD75631EE196A7D</string>
-				<string>DBF64064914227C0EF3B0FBC</string>
-				<string>4703F0A991B63DC07A4C4328</string>
+				<string>870E7489DE56D3BFFEA4C02F</string>
+				<string>B7C4DFE9BBA6F4F9796B9B9B</string>
+				<string>E0CF31B651F9EB802654050D</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -434,27 +354,72 @@
 			<key>productName</key>
 			<string>Pods-GestureLockViewDemo-GMYGestureLockView</string>
 			<key>productReference</key>
-			<string>9A38940EF715C921B3276635</string>
+			<string>6719B68B09AA580CCFC97A6C</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>85C865D61838EDA7C461C37A</key>
+		<key>818AAE441F41D82D283BADEE</key>
 		<dict>
-			<key>children</key>
+			<key>fileRef</key>
+			<string>6F2EFBD7A1C61A784BD1879C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>81DFDCDCA4C1DD28E546E095</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>1834CB887AE68BC948CD05F8</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
 			<array>
-				<string>4B4476775CCFA17382A8CC52</string>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>4FF39F89E0C885314951DEF9</string>
+			<key>productRefGroup</key>
+			<string>D5BA8B8F6F5B39DB09BE4504</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>B31BEAB32284BC0C169FCA0F</string>
+				<string>7CEA365F8281F55B86CF8FF5</string>
+			</array>
+		</dict>
+		<key>870E7489DE56D3BFFEA4C02F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>818AAE441F41D82D283BADEE</string>
+				<string>E00C5D34428AC69385E7D13A</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>931AA48978DED0F70785A548</key>
+		<key>8811585F907E56998D35B76A</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>1702CDA422B96EED3AFA0A85</string>
+			<string>A4E79F030DECED64DDEB3DFC</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -465,8 +430,6 @@
 				<string>/tmp/xcodeproj.dst</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-GestureLockViewDemo-GMYGestureLockView/Pods-GestureLockViewDemo-GMYGestureLockView-prefix.pch</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -501,117 +464,48 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>968B4CF1531A3E07E6CA4867</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36A394475D147EF9FE2706E3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>97937C71340E286C0C0F86E1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>36404C6D438E98A2D9BAFA47</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9A38940EF715C921B3276635</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-GestureLockViewDemo-GMYGestureLockView.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9E6E1A1C2E3E52FE0462A0FD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1702CDA422B96EED3AFA0A85</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-GestureLockViewDemo-GMYGestureLockView/Pods-GestureLockViewDemo-GMYGestureLockView-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A0418A90EE1FD15B81B00579</key>
+		<key>8AF99469CDE3A477A43301F2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-GestureLockViewDemo-resources.sh</string>
+			<string>Pods-GestureLockViewDemo.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A44FB4C5B8FFC7B10D745CA5</key>
+		<key>8FBDB5EC8BC8640A669EF1F2</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>FEB957AC13E943764B1EF066</string>
-				<string>C9E2A80C4419B9ED9E587724</string>
-				<string>85C865D61838EDA7C461C37A</string>
-				<string>F96515BEAAB8BB2BA147CF50</string>
-				<string>7F590F4D44B5651C97E4B1AF</string>
-			</array>
+			<key>containerPortal</key>
+			<string>81DFDCDCA4C1DD28E546E095</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7CEA365F8281F55B86CF8FF5</string>
+			<key>remoteInfo</key>
+			<string>Pods-GestureLockViewDemo-GMYGestureLockView</string>
+		</dict>
+		<key>9EF42AE7034676880B7B50D5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GMYGestureLockView.h</string>
+			<key>path</key>
+			<string>GMYGestureLockView/GMYGestureLockView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A7B4C43EBCA0FE6E30631C8E</key>
+		<key>A15DA857818D62460963DD83</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -620,51 +514,37 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods-GestureLockViewDemo-GMYGestureLockView-prefix.pch</string>
+			<string>Pods-GestureLockViewDemo-environment.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A7BB5252CA08CB79E2CDD074</key>
+		<key>A4E79F030DECED64DDEB3DFC</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>F87C8DF3EE61EF163E03604E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>85AC378EF4A4D02F064464A9</string>
-			<key>remoteInfo</key>
-			<string>Pods-GestureLockViewDemo-GMYGestureLockView</string>
-		</dict>
-		<key>AFDEA6BC0E967FA99F35AA2E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C3BC5C9B5773B1B89BFF9E8A</string>
-			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-GestureLockViewDemo.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B7E64205BDD75631EE196A7D</key>
+		<key>A817B2857E7573C4795ADB1D</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>968B4CF1531A3E07E6CA4867</string>
-				<string>0268AB546AC4F07D6F4B1B94</string>
+				<string>656443B430FE348BA543FD4B</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>BAC51CBAB216D69D801C37A3</key>
+		<key>AEF9012A8589648F8DA5FCCE</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -726,61 +606,270 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>C3BC5C9B5773B1B89BFF9E8A</key>
+		<key>B07C31783E1BF98C98CB3E57</key>
 		<dict>
+			<key>children</key>
+			<array>
+				<string>9EF42AE7034676880B7B50D5</string>
+				<string>6F2EFBD7A1C61A784BD1879C</string>
+				<string>EED0D8ECC7AD134E6E0089E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>GMYGestureLockView</string>
+			<key>path</key>
+			<string>GMYGestureLockView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2540D5F81A4E12307E31EF1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>66781EEA53DB89737B4C44F9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B31BEAB32284BC0C169FCA0F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>14FA776B83D8796C3F95917A</string>
+			<key>buildPhases</key>
+			<array>
+				<string>6A17C397CCB4B8B3F6CE677E</string>
+				<string>A817B2857E7573C4795ADB1D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>00EE5058FD7E3D288E3D436C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-GestureLockViewDemo</string>
+			<key>productName</key>
+			<string>Pods-GestureLockViewDemo</string>
+			<key>productReference</key>
+			<string>DFC1DF4FFAF563466C441BA6</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>B62B54BD81EE374799623407</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<string>Pods-GestureLockViewDemo-GMYGestureLockView.xcconfig</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C63002F02C76B45EFBCC5A0B</key>
+		<key>B7C4DFE9BBA6F4F9796B9B9B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B2540D5F81A4E12307E31EF1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C152CF3423492E9C52FEDF2B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-GestureLockViewDemo-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C9A26857CC4BC8677935E5D8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8AF99469CDE3A477A43301F2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>CC4ADFE21178DCBB74706CDA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-GestureLockViewDemo-GMYGestureLockView-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D0A99C1B083EFFB8091B1E65</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>72D87B0D0B48BBF77C7F2DB1</string>
+				<string>F89E997305251E4F3669AD30</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D5BA8B8F6F5B39DB09BE4504</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>37725D79CB04B34D4B4D5497</string>
-				<string>1702CDA422B96EED3AFA0A85</string>
-				<string>FE1D4C8A9D861BBC434FEB3F</string>
-				<string>A7B4C43EBCA0FE6E30631C8E</string>
+				<string>DFC1DF4FFAF563466C441BA6</string>
+				<string>6719B68B09AA580CCFC97A6C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-GestureLockViewDemo-GMYGestureLockView</string>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9E2A80C4419B9ED9E587724</key>
+		<key>D98B120C5F323CB346EB32F1</key>
 		<dict>
-			<key>children</key>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>DFC1DF4FFAF563466C441BA6</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-GestureLockViewDemo.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>E00C5D34428AC69385E7D13A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E697C84B703DBB548C26FB14</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E0CF31B651F9EB802654050D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>AFDEA6BC0E967FA99F35AA2E</string>
+				<string>1A43C0BCF80F15EAF701D350</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E5F2E36194F285A965CF07F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-GestureLockViewDemo-GMYGestureLockView-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D0578247BC58F86A3442E579</key>
+		<key>E697C84B703DBB548C26FB14</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-GestureLockViewDemo-GMYGestureLockView-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E90550FF0E85E02CC6E20E15</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>0A1B514030CA946E23DDFF66</string>
-				<string>6FDACF0F35241AF1747DDD76</string>
-				<string>825862DDB9F1E52249ECF251</string>
-				<string>03C244C64E9BCB1531D685FF</string>
-				<string>A0418A90EE1FD15B81B00579</string>
-				<string>74784185EFCBF24875FBA6AB</string>
-				<string>3DB5B357448B4A7F04E22221</string>
+				<string>C152CF3423492E9C52FEDF2B</string>
+				<string>1FABE79AC1F17CD1763A59D2</string>
+				<string>23E0A8D5CF7384BDAF56212C</string>
+				<string>A15DA857818D62460963DD83</string>
+				<string>59FD732D0E1D4C8DA35DF306</string>
+				<string>8AF99469CDE3A477A43301F2</string>
+				<string>A4E79F030DECED64DDEB3DFC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -791,37 +880,41 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DBF64064914227C0EF3B0FBC</key>
+		<key>EED0D8ECC7AD134E6E0089E4</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>260E9AFF1EBFD67680C7A1B7</string>
+				<string>B62B54BD81EE374799623407</string>
+				<string>CC4ADFE21178DCBB74706CDA</string>
+				<string>E697C84B703DBB548C26FB14</string>
+				<string>E5F2E36194F285A965CF07F9</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-GestureLockViewDemo-GMYGestureLockView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DF15CEC1C2A5F6AA2B9C6E1B</key>
+		<key>F6122F4B81DCA861F93DFEFB</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>children</key>
 			<array>
-				<string>7C0063F24562CCADFB1C7A64</string>
-				<string>E310EE2C66A007D8BADC040F</string>
+				<string>66781EEA53DB89737B4C44F9</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E310EE2C66A007D8BADC040F</key>
+		<key>F89E997305251E4F3669AD30</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>3DB5B357448B4A7F04E22221</string>
+			<string>CC4ADFE21178DCBB74706CDA</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -832,6 +925,8 @@
 				<string>/tmp/xcodeproj.dst</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-GestureLockViewDemo-GMYGestureLockView/Pods-GestureLockViewDemo-GMYGestureLockView-prefix.pch</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -866,103 +961,8 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>F87C8DF3EE61EF163E03604E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>F88682D95B7A9BF01254061E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>A44FB4C5B8FFC7B10D745CA5</string>
-			<key>productRefGroup</key>
-			<string>F96515BEAAB8BB2BA147CF50</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>3AE6B4E6A092E5D5B1A10829</string>
-				<string>85AC378EF4A4D02F064464A9</string>
-			</array>
-		</dict>
-		<key>F88682D95B7A9BF01254061E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3528D12322E92EB21CD44803</string>
-				<string>BAC51CBAB216D69D801C37A3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F96515BEAAB8BB2BA147CF50</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4CD2CD6AB938721DC1A3BE5C</string>
-				<string>9A38940EF715C921B3276635</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FE1D4C8A9D861BBC434FEB3F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-GestureLockViewDemo-GMYGestureLockView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEB957AC13E943764B1EF066</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>F87C8DF3EE61EF163E03604E</string>
+	<string>81DFDCDCA4C1DD28E546E095</string>
 </dict>
 </plist>

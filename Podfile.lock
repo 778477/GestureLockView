@@ -5,6 +5,6 @@ DEPENDENCIES:
   - GMYGestureLockView (= 1.0.0.0)
 
 SPEC CHECKSUMS:
-  GMYGestureLockView: ebaa6022d9bff880cf6d0c499839ecc0b781a54e
+  GMYGestureLockView: dc72fb285c338413916b21442e9f0ae048befb85
 
 COCOAPODS: 0.35.0

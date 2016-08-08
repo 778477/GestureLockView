@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "85AC378EF4A4D02F064464A9"
+               BlueprintIdentifier = "7CEA365F8281F55B86CF8FF5"
                BuildableName = "libPods-GestureLockViewDemo-GMYGestureLockView.a"
                BlueprintName = "Pods-GestureLockViewDemo-GMYGestureLockView"
                ReferencedContainer = "container:Pods.xcodeproj">
