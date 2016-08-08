@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GMYGestureLockView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+
+    CGFloat viewWitdth = [UIScreen mainScreen].bounds.size.width;
+    GMYGestureLockView *lockView = [[GMYGestureLockView alloc] initWithFrame:CGRectMake((viewWitdth - 320)/2, 200, 320, 320)];
+    [self.view addSubview:lockView];
 }
 
 - (void)didReceiveMemoryWarning {

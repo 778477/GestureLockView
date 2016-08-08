@@ -1,0 +1,10 @@
+PODS:
+  - GMYGestureLockView (1.0.0.0)
+
+DEPENDENCIES:
+  - GMYGestureLockView (= 1.0.0.0)
+
+SPEC CHECKSUMS:
+  GMYGestureLockView: ebaa6022d9bff880cf6d0c499839ecc0b781a54e
+
+COCOAPODS: 0.35.0
