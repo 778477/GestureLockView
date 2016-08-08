@@ -17,13 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    
     
     self.view.backgroundColor = [UIColor whiteColor];
 
     CGFloat viewWitdth = [UIScreen mainScreen].bounds.size.width;
-    GMYGestureLockView *lockView = [[GMYGestureLockView alloc] initWithFrame:CGRectMake((viewWitdth - 320)/2, 200, 320, 320)];
+    GMYGestureLockView *lockView = [[GMYGestureLockView alloc] initWithFrame:CGRectMake((viewWitdth - 320)/2, 200, 320, 320)
+                                                             nodeNormalColor:[UIColor grayColor]
+                                                           nodeSelectedColor:[UIColor redColor]];
+    
     [self.view addSubview:lockView];
 }
 
