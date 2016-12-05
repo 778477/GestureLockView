@@ -3,15 +3,17 @@
 
 手势解锁在交互体验上比输入键盘密码来得方便。
 
+Gesture lock is better than use password
+
 ## Screenshot
 - - -
 
 ![snapshot](https://raw.githubusercontent.com/778477/GestureLockView/master/snapshot.png)
-![snapshot1](https://raw.githubusercontent.com/778477/GestureLockView/master/snapshot1.png)
 
 
 ## CocoaPods
 - - -
+
 
 GMYGestureLockView can be installed using [CocoaPods](https://cocoapods.org/) to install `GMYGestureLockView` by adding it to your `Podfile`:
 
@@ -20,7 +22,7 @@ source 'https://github.com/778477/github-podspecs'
 
 target 'GestureLockViewDemo' do
 	platform :ios, '7.0'
-pod 'GMYGestureLockView', '1.0.0.0'
+pod 'GMYGestureLockView', '1.0.0.1'
 end
 
 ```
@@ -30,10 +32,13 @@ end
 - - -
 
 ```
-CGFloat viewWitdth = [UIScreen mainScreen].bounds.size.width;
-GMYGestureLockView *lockView = [[GMYGestureLockView alloc] initWithFrame:CGRectMake((viewWitdth - 320)/2, 200, 320, 320)
+ CGFloat viewWitdth = [UIScreen mainScreen].bounds.size.width;
+    GMYGestureLockView *lockView = [[GMYGestureLockView alloc] initWithFrame:CGRectMake((viewWitdth - 320)/2, 200, 320, 320)
+                                                              lockNodeNumber:16
                                                              nodeNormalColor:[UIColor grayColor]
                                                            nodeSelectedColor:[UIColor redColor]];
+    
+    lockView.delegate = self;
             
 ```
 
@@ -56,7 +61,7 @@ Set the UserGesturePath LineWidth,default value is **4**
 
 ```
 @protocol GMYGestureLockDelegate <NSObject>
-- (void)userGestureDrawedLockValue:(NSUInteger)lockVal;
+- (void)userGestureDrawedLockValue:(NSArray<NSNumber *> *)lockVals;
 @end
 
 @property (nonatomic, weak) id<GMYGestureLockDelegate> delegate;

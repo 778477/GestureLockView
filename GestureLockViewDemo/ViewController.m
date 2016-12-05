@@ -22,7 +22,7 @@
 
     CGFloat viewWitdth = [UIScreen mainScreen].bounds.size.width;
     GMYGestureLockView *lockView = [[GMYGestureLockView alloc] initWithFrame:CGRectMake((viewWitdth - 320)/2, 200, 320, 320)
-                                                              lockNodeNumber:18
+                                                              lockNodeNumber:16
                                                              nodeNormalColor:[UIColor grayColor]
                                                            nodeSelectedColor:[UIColor redColor]];
     
