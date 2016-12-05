@@ -1,1 +1,0 @@
-../../../GMYGestureLockView/GMYGestureLockView/GMYGestureLockView.h
