@@ -7,11 +7,14 @@
 //
 
 #import "GMYGestureLockView.h"
+#import "GMYQuickSqrt.h"
 
 typedef NS_ENUM(NSUInteger, GMYGestureLockNodeState) {
     GMYGestureLockNodeStateUnSelect = 1,
     GMYGestureLockNodeStateSelected ,
 };
+
+const NSUInteger GMYGestureLockViewDafultNodeNumber = 9;
 
 @interface GMYGestureLockViewNode : UIView
 @property (nonatomic, assign) GMYGestureLockNodeState state;
@@ -95,7 +98,7 @@ typedef NS_ENUM(NSUInteger, GMYGestureLockNodeState) {
 @end
 
 @implementation GMYGestureLockView{
-    NSUInteger _gestureLockValues;
+    NSMutableArray *_lockVals;
     UIColor *_nodeSelectedCol;
 }
 
@@ -105,36 +108,47 @@ typedef NS_ENUM(NSUInteger, GMYGestureLockNodeState) {
 }
 
 - (instancetype)initWithFrame:(CGRect)frame{
-    return [self initWithFrame:frame nodeNormalColor:[UIColor grayColor] nodeSelectedColor:[UIColor blueColor]];
+    return [self initWithFrame:frame lockNodeNumber:0 nodeNormalColor:nil nodeSelectedColor:nil];
 }
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder{
     return [self initWithFrame:CGRectZero];
 }
 
-- (instancetype)initWithFrame:(CGRect)frame nodeNormalColor:(UIColor *)normalCol nodeSelectedColor:(UIColor *)selectColor{
+- (instancetype)initWithFrame:(CGRect)frame lockNodeNumber:(int)lockNodeNumber nodeNormalColor:(UIColor *)normalColor nodeSelectedColor:(UIColor *)selectColor{
     self = [super initWithFrame:frame];
+    
+    // deal to square numbers
+    if(lockNodeNumber >= 1){
+        int tmp = quickSqrt(lockNodeNumber);
+        lockNodeNumber = tmp * tmp;
+    } else{
+        lockNodeNumber = GMYGestureLockViewDafultNodeNumber;
+    }
     
     if(self){
         self.backgroundColor = [UIColor whiteColor];
         
-        _gestureLockValues = 0;
+        _lockVals = [NSMutableArray array];
         _nodeSelectedCol = selectColor ? selectColor : [UIColor blueColor];
         
-        CGFloat margin = 18.f;
-        CGFloat nodeWidth = (frame.size.width - 4*margin) / 3;
+        int rowNum = quickSqrt(lockNodeNumber);
+        
+        
+        CGFloat margin = 9.f;
+        CGFloat nodeWidth = (frame.size.width - (rowNum + 1)*margin) / rowNum;
         
         CGFloat offsetX = margin;
         CGFloat offsetY = margin;
-        for(NSUInteger i = 0; i < 9; i++){
-            NSUInteger x = i%3;
-            NSUInteger y = i/3;
+        for(NSUInteger i = 0; i < lockNodeNumber; i++){
+            NSUInteger x = i%rowNum;
+            NSUInteger y = i/rowNum;
             
             offsetX = (x+1)*margin + x*nodeWidth;
             offsetY = (y+1)*margin + y*nodeWidth;
             
             GMYGestureLockViewNode *node = [[GMYGestureLockViewNode alloc] initWithFrame:CGRectMake(offsetX, offsetY, nodeWidth, nodeWidth)
-                                                                             normalColor:normalCol
+                                                                             normalColor:normalColor
                                                                            selectedColor:selectColor];
             node.nodeValue = i+1;
             [self addSubview:node];
@@ -193,41 +207,33 @@ typedef NS_ENUM(NSUInteger, GMYGestureLockNodeState) {
     
     switch (gesture.state) {
         case UIGestureRecognizerStateBegan:
-            _gestureLockValues = selectedNode.nodeValue;
+            
             selectedNode.state = GMYGestureLockNodeStateSelected;
-            // first node
             [self.path moveToPoint:selectedNode.center];
             [self setNeedsDisplay];
+            
+            [_lockVals removeAllObjects];
+            [_lockVals addObject:[NSNumber numberWithUnsignedInteger:selectedNode.nodeValue]];
             break;
             
         case UIGestureRecognizerStateChanged:
             if(selectedNode.state == GMYGestureLockNodeStateUnSelect){
                 selectedNode.state = GMYGestureLockNodeStateSelected;
-                _gestureLockValues = _gestureLockValues * 10 + selectedNode.nodeValue;
-                // first node
-                if(!(_gestureLockValues/10)){
+                if(_lockVals.count < 1){ //first node
                     [self.path moveToPoint:selectedNode.center];
                 }
                 else{
                     [self.path addLineToPoint:selectedNode.center];
                 }
                 [self setNeedsDisplay];
+                
+                [_lockVals addObject:[NSNumber numberWithUnsignedInteger:selectedNode.nodeValue]];
             }
             break;
             
         case UIGestureRecognizerStateEnded:{
-            /*
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"alert"
-                                                            message:[NSString stringWithFormat:@"%lu",_gestureLockValues]
-                                                           delegate:nil
-                                                  cancelButtonTitle:@"cancel"
-                                                  otherButtonTitles:nil, nil];
-            
-            [alert show];
-             */
-            
             if(self.delegate && [self.delegate respondsToSelector:@selector(userGestureDrawedLockValue:)]){
-                [self.delegate userGestureDrawedLockValue:_gestureLockValues];
+                [self.delegate userGestureDrawedLockValue:[_lockVals copy]];
             }
             
             [self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -252,24 +258,6 @@ typedef NS_ENUM(NSUInteger, GMYGestureLockNodeState) {
     return YES;
 }
 
-
-
-#pragma mark - Override
-//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-//     UITouch *first = [touches ]
-//}
-//
-//- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-//    
-//}
-//
-//- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-//    
-//}
-//
-//- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-//    
-//}
 
 
 @end
